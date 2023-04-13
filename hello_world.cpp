@@ -1,1 +1,10 @@
-"#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello, world!\" << endl;\n    return 0;\n}" 
+#include <iostream>
+#include <string>
+
+int main() {
+  std::string name;
+  std::cout << "Введите ваше имя: ";
+  std::cin >> name;
+  std::cout << "Hello world from @" << name << std::endl;
+  return 0;
+}
