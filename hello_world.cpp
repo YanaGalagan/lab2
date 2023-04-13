@@ -5,6 +5,7 @@ int main() {
   std::string name;
   std::cout << "Введите ваше имя: ";
   std::cin >> name;
+  //input name
   std::cout << "Hello world from @" << name << std::endl;
 	//new comment
   return 0;
